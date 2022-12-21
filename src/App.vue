@@ -4,6 +4,7 @@
     <button @click="start" :disabled="isPlaying">Play</button>
   </div>
   <Block v-if="isPlaying" :delay="delay"/>
+  
 </template>
 
 <script>
