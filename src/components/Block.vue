@@ -19,7 +19,7 @@
                 this.showBlock = true
                 this.startTimer()
             }, this.delay)
-        },
+        }, 
         methods : {
             startTimer() {
                 this.timer = setInterval(() => { 
